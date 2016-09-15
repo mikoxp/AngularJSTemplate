@@ -3,7 +3,8 @@ var myApp = angular.module('myApp', [
   'ngAnimate',
   'ui.bootstrap',
   'myModule',
-  'angularUtils.directives.dirPagination'
+  'angularUtils.directives.dirPagination',
+  'chart.js'
 ]);
 myApp.config(['$routeProvider',
   function($routeProvider) {
